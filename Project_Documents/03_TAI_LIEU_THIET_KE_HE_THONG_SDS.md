@@ -5,9 +5,10 @@
 > [!IMPORTANT]
 > Tài liệu này mô tả chi tiết kiến trúc hệ thống, database design, API design, và các luồng xử lý kỹ thuật. Đây là blueprint cho team phát triển.
 
-**Phiên bản:** 1.0  
-**Ngày tạo:** 02/01/2026  
-**Người tạo:** Solution Architect & Tech Lead
+**Phiên bản:** 2.0  
+**Ngày cập nhật:** 06/01/2026  
+**Kiến trúc:** 3-Server Architecture  
+**Tech Stack:** .NET 10, Next.js 15, PostgreSQL 16, RabbitMQ, SignalR
 
 ---
 
@@ -28,63 +29,84 @@
 
 ## 1. TỔNG QUAN KIẾN TRÚC
 
-### 1.1. High-Level Architecture
+### 1.1. High-Level Architecture (3-Server Setup)
 
 ```mermaid
 graph TB
-    subgraph "Client Layer"
-        A1[Web App - React]
-        A2[Mobile App - React Native]
-        A3[SIP Phone]
+    subgraph "Clients"
+        C1[Web Browser<br/>Next.js 15]
+        C2[Mobile App<br/>React Native]
+        C3[IP Phones<br/>SIP]
     end
     
-    subgraph "Edge/Gateway Layer"
-        B1[Nginx - Reverse Proxy]
-        B2[Kamailio - SIP Proxy]
+    subgraph "Server 1: Application Server<br/>Debian 12 - 8 vCPU, 16GB RAM"
+        subgraph "Frontend"
+            F1[Next.js App<br/>Port 3000<br/>SSR + API Routes]
+        end
+        
+        subgraph "Backend .NET 10"
+            B1[ASP.NET Core Web API<br/>Port 5000]
+            B2[Worker Service<br/>ESL + Background Jobs]
+            B3[SignalR Hub<br/>Real-time WebSocket]
+        end
+        
+        subgraph "Data"
+            DB1[(PostgreSQL 16<br/>Port 5432)]
+            REDIS1[(Redis 7<br/>Port 6379)]
+        end
+        
+        subgraph "Message Queue"
+            RMQ[RabbitMQ<br/>Port 5672]
+        end
+        
+        NGINX1[Nginx<br/>Reverse Proxy]
     end
     
-    subgraph "Application Layer"
-        C1[.NET Web API]
-        C2[.NET Worker Service]
-        C3[SignalR Hub]
+    subgraph "Server 2: Media Server<br/>Debian 12 - 8 vCPU, 16GB RAM"
+        FS[FreeSWITCH<br/>Port 5060 SIP]
+        FS_ESL[ESL Port 8021]
+        FS_WS[WebSocket 8082<br/>WebRTC]
     end
     
-    subgraph "Telephony Layer"
-        D1[FreeSWITCH]
+    subgraph "Server 3: Storage Server<br/>Debian 12 - 4 vCPU, 8GB RAM"
+        MINIO[MinIO S3<br/>Port 9000<br/>Recordings + Assets]
+        MINIO_CONSOLE[MinIO Console<br/>Port 9001]
     end
     
-    subgraph "Data Layer"
-        E1[(PostgreSQL)]
-        E2[(Redis Cache)]
-        E3[MinIO S3]
+    subgraph "External"
+        TRUNK[SIP Trunk Provider<br/>Viettel/FPT/VNPT]
+        PSTN[PSTN Network]
     end
     
-    subgraph "External Services"
-        F1[SIP Trunk Provider]
-        F2[Email Service]
-        F3[SMS Service]
-    end
+    C1 --> NGINX1
+    C2 --> NGINX1
+    C3 --> FS
     
-    A1 -->|HTTPS| B1
-    A2 -->|HTTPS| B1
-    A3 -->|SIP/RTP| B2
+    NGINX1 --> F1
+    NGINX1 --> B1
+    NGINX1 --> B3
     
-    B1 --> C1
-    B1 --> C3
-    B2 --> D1
+    F1 --> B1
     
-    D1 -->|mod_xml_curl| C1
-    D1 -->|ESL Events| C2
-    D1 -->|SIP Trunk| F1
+    B1 --> DB1
+    B1 --> REDIS1
+    B1 --> RMQ
+    B1 -.HTTP.-> MINIO
     
-    C1 --> E1
-    C1 --> E2
-    C1 --> E3
-    C2 --> E1
-    C2 --> E3
+    B2 --> FS_ESL
+    B2 --> DB1
+    B2 --> RMQ
+    B2 -.Upload.-> MINIO
     
-    C1 --> F2
-    C1 --> F3
+    FS -.mod_xml_curl<br/>HTTP.-> B1
+    FS -.ESL Events.-> B2
+    FS --> TRUNK
+    TRUNK --> PSTN
+    
+    style DB1 fill:#ff6b6b,color:#fff
+    style FS fill:#4ecdc4,color:#fff
+    style MINIO fill:#95e1d3,color:#000
+    style RMQ fill:#ffd93d,color:#000
 ```
 
 ---
