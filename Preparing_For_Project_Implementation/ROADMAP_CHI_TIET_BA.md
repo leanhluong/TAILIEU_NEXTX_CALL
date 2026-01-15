@@ -130,14 +130,14 @@ mindmap
 #### **Công việc chi tiết:**
 
 **Ngày 1-2: Đọc tài liệu (16h)**
-- [ ] Đọc [KIEN_TRUC_VA_TECH_STACK.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/KIEN_TRUC_VA_TECH_STACK.md)
-- [ ] Đọc [00_TONG_QUAN_HE_THONG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/00_TONG_QUAN_HE_THONG.md)
-- [ ] Đọc [02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md)
+- [ ] Đọc [KIEN_TRUC_VA_TECH_STACK.md](../Project_Documents/KIEN_TRUC_VA_TECH_STACK.md)
+- [ ] Đọc [00_TONG_QUAN_HE_THONG.md](../Project_Documents/00_TONG_QUAN_HE_THONG.md)
+- [ ] Đọc [02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md](../Project_Documents/02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md)
 - [ ] Hiểu rõ business model
 - [ ] Hiểu rõ target users
 
 **Ngày 3: Review Product Backlog (8h)**
-- [ ] Đọc [PRODUCT_BACKLOG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/AGILE_DOCS/PRODUCT_BACKLOG.md)
+- [ ] Đọc [PRODUCT_BACKLOG.md](../AGILE_DOCS/PRODUCT_BACKLOG.md)
 - [ ] Review 45 User Stories
 - [ ] Hiểu Story Points (250 total)
 - [ ] Hiểu Epic structure (9 Epics)
@@ -755,4 +755,4 @@ Then I see a list of my calls from the last 30 days
 **Next Review:** Sprint 1 Planning
 
 > [!TIP]
-> Đọc kỹ tài liệu [PRODUCT_BACKLOG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/AGILE_DOCS/PRODUCT_BACKLOG.md) để hiểu rõ tất cả User Stories trước khi bắt đầu Sprint 1.
+> Đọc kỹ tài liệu [PRODUCT_BACKLOG.md](../AGILE_DOCS/PRODUCT_BACKLOG.md) để hiểu rõ tất cả User Stories trước khi bắt đầu Sprint 1.

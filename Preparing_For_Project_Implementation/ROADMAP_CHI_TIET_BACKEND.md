@@ -129,19 +129,19 @@
 #### **Học FreeSWITCH (Backend Senior - 40h)**
 
 **Ngày 1-2: Cơ bản (16h)**
-- [ ] Đọc [00_TONG_QUAN_FREESWITCH.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/00_TONG_QUAN_FREESWITCH.md)
-- [ ] Đọc [NGAY_01_02_CAI_DAT_FREESWITCH.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/NGAY_01_02_CAI_DAT_FREESWITCH.md)
+- [ ] Đọc [00_TONG_QUAN_FREESWITCH.md](../FreeSwitchs/00_TONG_QUAN_FREESWITCH.md)
+- [ ] Đọc [NGAY_01_02_CAI_DAT_FREESWITCH.md](../FreeSwitchs/NGAY_01_02_CAI_DAT_FREESWITCH.md)
 - [ ] Cài FreeSWITCH trên WSL2/Docker
 - [ ] Test SIP registration với Softphone
 
 **Ngày 3-4: mod_xml_curl (16h)**
-- [ ] Đọc [NGAY_06_07_MOD_XML_CURL.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/NGAY_06_07_MOD_XML_CURL.md)
+- [ ] Đọc [NGAY_06_07_MOD_XML_CURL.md](../FreeSwitchs/NGAY_06_07_MOD_XML_CURL.md)
 - [ ] Hiểu cách FreeSWITCH gọi API
 - [ ] Hiểu XML response format
 - [ ] Test với mock API
 
 **Ngày 5: ESL (8h)**
-- [ ] Đọc [NGAY_08_09_EVENT_SOCKET_LAYER.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/NGAY_08_09_EVENT_SOCKET_LAYER.md)
+- [ ] Đọc [NGAY_08_09_EVENT_SOCKET_LAYER.md](../FreeSwitchs/NGAY_08_09_EVENT_SOCKET_LAYER.md)
 - [ ] Hiểu ESL events
 - [ ] Test với NEventSocket library
 
@@ -155,7 +155,7 @@
 - [ ] Cài Postman
 
 **Ngày 3-4: Đọc tài liệu (16h)**
-- [ ] Đọc [03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md)
+- [ ] Đọc [03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md](../Project_Documents/03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md)
 - [ ] Hiểu Clean Architecture
 - [ ] Hiểu Database schema
 - [ ] Hiểu API design
