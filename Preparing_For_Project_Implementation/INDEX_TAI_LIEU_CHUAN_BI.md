@@ -33,7 +33,7 @@
 
 ### 2. Roadmap theo vai trò
 
-#### **[ROADMAP_CHI_TIET_BA.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_BA.md)**
+#### **[ROADMAP_CHI_TIET_BA.md](./ROADMAP_CHI_TIET_BA.md)**
 
 **Nội dung:**
 - ✅ Trách nhiệm BA/Product Owner
@@ -54,7 +54,7 @@
 
 ---
 
-#### **[ROADMAP_CHI_TIET_BACKEND.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_BACKEND.md)**
+#### **[ROADMAP_CHI_TIET_BACKEND.md](./ROADMAP_CHI_TIET_BACKEND.md)**
 
 **Nội dung:**
 - ✅ Phân chia công việc (Senior vs Mid)
@@ -77,7 +77,7 @@
 
 ---
 
-#### **[ROADMAP_CHI_TIET_FRONTEND.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_FRONTEND.md)**
+#### **[ROADMAP_CHI_TIET_FRONTEND.md](./ROADMAP_CHI_TIET_FRONTEND.md)**
 
 **Nội dung:**
 - ✅ Phân chia công việc (Senior vs Mid)
@@ -100,7 +100,7 @@
 
 ---
 
-#### **[ROADMAP_CHI_TIET_DEVOPS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_DEVOPS.md)**
+#### **[ROADMAP_CHI_TIET_DEVOPS.md](./ROADMAP_CHI_TIET_DEVOPS.md)**
 
 **Nội dung:**
 - ✅ Infrastructure overview (3-server architecture)
@@ -127,7 +127,7 @@
 
 ### Bước 1: Đọc tài liệu tổng quan (TẤT CẢ)
 
-1. ✅ Đọc [00_CHUAN_BI_DEVELOP.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/00_CHUAN_BI_DEVELOP.md)
+1. ✅ Đọc [00_CHUAN_BI_DEVELOP.md](./00_CHUAN_BI_DEVELOP.md)
 2. ✅ Hiểu rõ kiến trúc 3-server
 3. ✅ Hiểu rõ tech stack
 4. ✅ Hoàn thành checklist chuẩn bị
@@ -135,22 +135,22 @@
 ### Bước 2: Đọc roadmap theo vai trò
 
 **Business Analyst:**
-- ✅ Đọc [ROADMAP_CHI_TIET_BA.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_BA.md)
+- ✅ Đọc [ROADMAP_CHI_TIET_BA.md](./ROADMAP_CHI_TIET_BA.md)
 - ✅ Đọc [PRODUCT_BACKLOG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/AGILE_DOCS/PRODUCT_BACKLOG.md)
 - ✅ Chuẩn bị Sprint 1 backlog
 
 **Backend Engineer:**
-- ✅ Đọc [ROADMAP_CHI_TIET_BACKEND.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_BACKEND.md)
+- ✅ Đọc [ROADMAP_CHI_TIET_BACKEND.md](./ROADMAP_CHI_TIET_BACKEND.md)
 - ✅ Học FreeSWITCH basics (40h)
 - ✅ Setup .NET 10 environment
 
 **Frontend Engineer:**
-- ✅ Đọc [ROADMAP_CHI_TIET_FRONTEND.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_FRONTEND.md)
+- ✅ Đọc [ROADMAP_CHI_TIET_FRONTEND.md](./ROADMAP_CHI_TIET_FRONTEND.md)
 - ✅ Học Next.js 15 App Router (20h)
 - ✅ Setup Node.js environment
 
 **DevOps Engineer:**
-- ✅ Đọc [ROADMAP_CHI_TIET_DEVOPS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/ROADMAP_CHI_TIET_DEVOPS.md)
+- ✅ Đọc [ROADMAP_CHI_TIET_DEVOPS.md](./ROADMAP_CHI_TIET_DEVOPS.md)
 - ✅ Học FreeSWITCH installation (40h)
 - ✅ Thuê 3 VPS servers
 
@@ -259,7 +259,7 @@ Phase 3: Advanced (Tuần 9-12)
 ### Tài liệu dự án
 
 **Bắt buộc đọc:**
-1. [KIEN_TRUC_VA_TECH_STACK.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/KIEN_TRUC_VA_TECH_STACK.md) ⭐
+1. [KIEN_TRUC_VA_TECH_STACK.md](../Project_Documents/KIEN_TRUC_VA_TECH_STACK.md) ⭐
 2. [00_TONG_QUAN_HE_THONG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/00_TONG_QUAN_HE_THONG.md)
 3. [03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md)
 
@@ -333,7 +333,7 @@ Phase 3: Advanced (Tuần 9-12)
 **Status:** ✅ Ready for Sprint 1
 
 > [!TIP]
-> Bắt đầu với [00_CHUAN_BI_DEVELOP.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/00_CHUAN_BI_DEVELOP.md), sau đó đọc roadmap theo vai trò của bạn. Hoàn thành checklist Tuần 0 trước khi bắt đầu Sprint 1.
+> Bắt đầu với [00_CHUAN_BI_DEVELOP.md](./00_CHUAN_BI_DEVELOP.md), sau đó đọc roadmap theo vai trò của bạn. Hoàn thành checklist Tuần 0 trước khi bắt đầu Sprint 1.
 
 > [!NOTE]
 > Tất cả tài liệu này được tạo dựa trên tài liệu dự án hiện có. Nếu có thắc mắc, vui lòng tham khảo tài liệu gốc trong thư mục [TAI_LIEU_DU_AN_MOI](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main).
