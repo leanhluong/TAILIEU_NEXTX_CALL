@@ -1,4 +1,4 @@
-# ROADMAP CHI TIẾT CHO FRONTEND ENGINEER
+﻿# ROADMAP CHI TIẾT CHO FRONTEND ENGINEER
 ## Call Center SaaS Platform - Frontend Detailed Roadmap
 
 > [!IMPORTANT]

@@ -1,4 +1,4 @@
-# ROADMAP CHI TIẾT CHO DEVOPS ENGINEER
+﻿# ROADMAP CHI TIẾT CHO DEVOPS ENGINEER
 ## Call Center SaaS Platform - DevOps Detailed Roadmap
 
 > [!IMPORTANT]
@@ -112,19 +112,19 @@ Server 3:
 #### **Học FreeSWITCH (40h)**
 
 **Ngày 1-2: FreeSWITCH Basics (16h)**
-- [ ] Đọc [00_TONG_QUAN_FREESWITCH.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/FreeSwitchs/00_TONG_QUAN_FREESWITCH.md)
+- [ ] Đọc [00_TONG_QUAN_FREESWITCH.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/00_TONG_QUAN_FREESWITCH.md)
 - [ ] Hiểu SIP protocol
 - [ ] Hiểu FreeSWITCH architecture
 - [ ] Hiểu modules system
 
 **Ngày 3-4: Installation (16h)**
-- [ ] Đọc [NGAY_01_02_CAI_DAT_FREESWITCH.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/FreeSwitchs/NGAY_01_02_CAI_DAT_FREESWITCH.md)
+- [ ] Đọc [NGAY_01_02_CAI_DAT_FREESWITCH.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/NGAY_01_02_CAI_DAT_FREESWITCH.md)
 - [ ] Practice installation on test VM
 - [ ] Test SIP registration
 - [ ] Test basic call
 
 **Ngày 5: Configuration (8h)**
-- [ ] Đọc [NGAY_03_04_SIP_EXTENSIONS.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/FreeSwitchs/NGAY_03_04_SIP_EXTENSIONS.md)
+- [ ] Đọc [NGAY_03_04_SIP_EXTENSIONS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/FreeSwitchs/NGAY_03_04_SIP_EXTENSIONS.md)
 - [ ] Understand SIP profiles
 - [ ] Understand dialplan
 
