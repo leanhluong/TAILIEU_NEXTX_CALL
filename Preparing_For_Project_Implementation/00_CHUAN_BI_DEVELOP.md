@@ -69,20 +69,20 @@
    - Lý do chọn từng công nghệ
    - **Thời gian đọc:** 2-3 giờ
 
-2. **[00_TONG_QUAN_HE_THONG.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/Project_Documents/00_TONG_QUAN_HE_THONG.md)**
+2. **[00_TONG_QUAN_HE_THONG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/00_TONG_QUAN_HE_THONG.md)**
    - Executive summary
    - Business overview
    - High-level architecture
    - **Thời gian đọc:** 1 giờ
 
-3. **[README.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/README.md)**
+3. **[README.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/README.md)**
    - Danh mục tài liệu
    - Quick links
    - **Thời gian đọc:** 15 phút
 
 #### **Cho Backend Team:**
 
-4. **[03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/Project_Documents/03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md)**
+4. **[03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md)**
    - Clean Architecture design
    - Database schema
    - API design
@@ -96,27 +96,27 @@
 
 #### **Cho Frontend Team:**
 
-6. **[02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/Project_Documents/02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md)**
+6. **[02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/02_TAI_LIEU_YEU_CAU_PHAN_MEM_SRS.md)**
    - Functional requirements
    - UI/UX requirements
    - **Thời gian đọc:** 2-3 giờ
 
 #### **Cho BA:**
 
-7. **[PRODUCT_BACKLOG.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/AGILE_DOCS/PRODUCT_BACKLOG.md)**
+7. **[PRODUCT_BACKLOG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/AGILE_DOCS/PRODUCT_BACKLOG.md)**
    - User Stories
    - Acceptance Criteria
    - Story Points
    - **Thời gian đọc:** 3-4 giờ
 
-8. **[ROADMAP_DEMO_TEAM_STRUCTURE.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/AGILE_DOCS/ROADMAP_DEMO_TEAM_STRUCTURE.md)**
+8. **[ROADMAP_DEMO_TEAM_STRUCTURE.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/AGILE_DOCS/ROADMAP_DEMO_TEAM_STRUCTURE.md)**
    - Sprint planning
    - Team structure
    - **Thời gian đọc:** 2 giờ
 
 #### **Cho DevOps:**
 
-9. **[01_HA_TANG_VA_NHAN_SU.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/Project_Documents/01_HA_TANG_VA_NHAN_SU.md)**
+9. **[01_HA_TANG_VA_NHAN_SU.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/01_HA_TANG_VA_NHAN_SU.md)**
    - Infrastructure requirements
    - Server specifications
    - **Thời gian đọc:** 1-2 giờ
@@ -556,7 +556,7 @@ Closes #123
 
 ### 7.1. Documentation
 
-- **Project Docs:** [TAI_LIEU_DU_AN_MOI](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI)
+- **Project Docs:** [TAI_LIEU_DU_AN_MOI](https://github.com/leanhluong/TAILIEU_NEXTX_CALL)
 - **API Docs:** Swagger UI (http://localhost:5000/swagger)
 - **Database:** pgAdmin (http://localhost:5050)
 
