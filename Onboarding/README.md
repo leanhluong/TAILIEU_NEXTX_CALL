@@ -56,7 +56,7 @@
 ### 📊 Business Analyst
 
 **Tài liệu onboarding:**
-- **[ONBOARDING_BA.md](./Onboarding/ONBOARDING_BA.md)** ⭐
+- **[ONBOARDING_BA.md](./ONBOARDING_BA.md)** ⭐
   - Tuần đầu tiên làm gì
   - Tài liệu cần đọc
   - Tools cần setup
@@ -71,7 +71,7 @@
 ### 💻 Backend Engineer
 
 **Tài liệu onboarding:**
-- **[ONBOARDING_BACKEND.md](./Onboarding/ONBOARDING_BACKEND.md)** ⭐
+- **[ONBOARDING_BACKEND.md](./ONBOARDING_BACKEND.md)** ⭐
   - Tuần đầu tiên làm gì
   - Setup môi trường (.NET, PostgreSQL, FreeSWITCH)
   - Codebase walkthrough
@@ -86,7 +86,7 @@
 ### 🎨 Frontend Engineer
 
 **Tài liệu onboarding:**
-- **[ONBOARDING_FRONTEND.md](./Onboarding/ONBOARDING_FRONTEND.md)** ⭐
+- **[ONBOARDING_FRONTEND.md](./ONBOARDING_FRONTEND.md)** ⭐
   - Tuần đầu tiên làm gì
   - Setup môi trường (Node.js, Next.js)
   - Project structure
@@ -101,7 +101,7 @@
 ### 🔧 DevOps Engineer
 
 **Tài liệu onboarding:**
-- **[ONBOARDING_DEVOPS.md](./Onboarding/ONBOARDING_DEVOPS.md)** ⭐
+- **[ONBOARDING_DEVOPS.md](./ONBOARDING_DEVOPS.md)** ⭐
   - Tuần đầu tiên làm gì
   - Infrastructure overview
   - Access & credentials
