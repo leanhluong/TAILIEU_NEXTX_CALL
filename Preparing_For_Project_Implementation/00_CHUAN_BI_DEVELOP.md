@@ -63,7 +63,7 @@
 
 #### **Cho TẤT CẢ thành viên:**
 
-1. **[KIEN_TRUC_VA_TECH_STACK.md](file:///c:/Users/LENOVO/Desktop/TTS-BE/Call/TAI_LIEU_DU_AN_MOI/Project_Documents/KIEN_TRUC_VA_TECH_STACK.md)** ⭐ **QUAN TRỌNG NHẤT**
+1. **[KIEN_TRUC_VA_TECH_STACK.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/KIEN_TRUC_VA_TECH_STACK.md)** ⭐ **QUAN TRỌNG NHẤT**
    - Kiến trúc 3-server chi tiết
    - Tech stack analysis
    - Lý do chọn từng công nghệ
