@@ -15,7 +15,7 @@
 
 ### 1. Tài liệu tổng quan
 
-#### **[00_CHUAN_BI_DEVELOP.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/00_CHUAN_BI_DEVELOP.md)** ⭐ **ĐỌC ĐẦU TIÊN**
+#### **[00_CHUAN_BI_DEVELOP.md](./Preparing_For_Project_Implementation/00_CHUAN_BI_DEVELOP.md)** ⭐ **ĐỌC ĐẦU TIÊN**
 
 **Nội dung:**
 - ✅ Tổng quan dự án
