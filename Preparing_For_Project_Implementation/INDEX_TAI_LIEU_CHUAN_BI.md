@@ -15,7 +15,7 @@
 
 ### 1. Tài liệu tổng quan
 
-#### **[00_CHUAN_BI_BAT_TAY_VAO_CODE.md](file:///C:/Users/LENOVO/.gemini/antigravity/brain/33284b68-a549-4606-86c5-47e1737f1906/00_CHUAN_BI_BAT_TAY_VAO_CODE.md)** ⭐ **ĐỌC ĐẦU TIÊN**
+#### **[00_CHUAN_BI_DEVELOP.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Preparing_For_Project_Implementation/00_CHUAN_BI_DEVELOP.md)** ⭐ **ĐỌC ĐẦU TIÊN**
 
 **Nội dung:**
 - ✅ Tổng quan dự án
