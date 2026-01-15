@@ -259,7 +259,7 @@ Phase 3: Advanced (Tuần 9-12)
 ### Tài liệu dự án
 
 **Bắt buộc đọc:**
-1. [KIEN_TRUC_VA_TECH_STACK.md](../Project_Documents/KIEN_TRUC_VA_TECH_STACK.md) ⭐
+1. [KIEN_TRUC_VA_TECH_STACK.md](./Project_Documents/KIEN_TRUC_VA_TECH_STACK.md) ⭐
 2. [00_TONG_QUAN_HE_THONG.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/00_TONG_QUAN_HE_THONG.md)
 3. [03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md](https://github.com/leanhluong/TAILIEU_NEXTX_CALL/blob/main/Project_Documents/03_TAI_LIEU_THIET_KE_HE_THONG_SDS.md)
 
